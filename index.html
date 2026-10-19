@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kheirie El Hariri · Data Scientist</title>
+  <meta name="description" content="Kheirie El Hariri: data scientist in NLP and generative AI, with a background in teaching and course design. CV, projects, and an AI assistant that answers questions about my background.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f4e79'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EKE%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=16">
+</head>
+<body>
+
+  <main id="main">
+
+    <header class="hero">
+      <div class="hero-inner wrap">
+        <p class="hello"><span class="name">Hi, I'm Kerry<span class="wave" aria-hidden="true">👋</span></span></p>
+        <p class="aka">officially written Kheirie :D</p>
+        <h1><span>Data Scientist</span> <span class="bar" aria-hidden="true">|</span> <span>AI &amp; Machine Learning</span> <span class="bar" aria-hidden="true">|</span> <span>NLP</span></h1>
+
+        <img class="photo" src="img/kheirie.jpg" alt="Portrait of Kheirie El Hariri" width="716" height="720">
+
+        <a class="ask" href="#resumebot">
+          <span>Ask my AI assistant about me…</span>
+          <span class="go" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <nav class="tiles" aria-label="About me">
+          <button type="button" class="tile" data-open="about">
+            <svg viewBox="0 0 24 24" aria-hidden="true" style="--c: #0f9488"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5a4 4 0 0 0 7 0M9 9.5h.01M15 9.5h.01"/></svg>
+            Me
+          </button>
+          <button type="button" class="tile" data-open="experience">
+            <svg viewBox="0 0 24 24" aria-hidden="true" style="--c: #2f8a3e"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 12h18"/></svg>
+            Experience
+          </button>
+          <button type="button" class="tile" data-open="education">
+            <svg viewBox="0 0 24 24" aria-hidden="true" style="--c: #2563eb"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5M22 9v6"/></svg>
+            Education
+          </button>
+          <a class="tile" href="https://github.com/kheirie" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="logo"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            Projects
+          </a>
+          <a class="tile" href="https://medium.com/@kheirie" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="logo"><ellipse cx="6.8" cy="12" rx="6.3" ry="6.3"/><ellipse cx="16.8" cy="12" rx="3.2" ry="5.9"/><ellipse cx="21.9" cy="12" rx="1.1" ry="5.3"/></svg>
+            Articles
+          </a>
+          <button type="button" class="tile" data-open="contact">
+            <svg viewBox="0 0 24 24" aria-hidden="true" style="--c: #b7791f"><circle cx="10" cy="8" r="4"/><path d="M3 21c0-4 3-6 7-6 1.4 0 2.7.3 3.7.8"/><circle cx="18" cy="17" r="2.5"/><path d="m20 19 2 2"/></svg>
+            Contact
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <section id="resumebot" class="project wrap">
+      <p class="eyebrow">Featured project</p>
+      <h2>resumeBot: ask my AI assistant about me</h2>
+      <p>
+        resumeBot is an AI assistant I built as a learning project in retrieval-augmented generation (RAG): you ask a question
+        about my experience, skills, education or writing, and it answers from my approved materials only. It first finds the
+        sections of my background that best match your question, then a language model writes a short answer from those
+        sections. It is not a general chatbot and it doesn't guess: when something isn't documented, such as salary
+        expectations or availability, it says so and suggests asking me directly. It is also not a substitute for a
+        conversation, so feel free to <a href="#contact" data-open="contact">contact me</a>!
+      </p>
+      <p>
+        By "AI answer," I mean an answer written by a large language model, the same kind of technology as ChatGPT, here
+        mainly the open model gpt-oss-120b. The model runs on a free service with a daily usage limit that all visitors
+        share. That's why each visitor gets three AI answers per day: it keeps the assistant available for everyone and the
+        project free to run. Questions someone has already asked, and questions it can't answer, don't count. After your
+        three AI answers, no language model writes anything. Instead, a much smaller model compares the meaning of your
+        question with my materials, and you see the best-matching passages word for word. You get three new AI answers the
+        next day.
+      </p>
+      <p class="code"><a href="https://github.com/kheirie/myResume" rel="noopener">Code on GitHub</a></p>
+      <div class="frame">
+        <iframe
+          src="https://01a14a53-a1a3-dfbd-4aed-d6da95a2a800.share.connect.posit.cloud/?embed=true"
+          title="AI assistant that answers questions about Kheirie El Hariri's background"
+          loading="lazy"
+          allow="clipboard-write"></iframe>
+      </div>
+      <p class="note">
+        If it is waking up, the first load can take a minute.
+        <a class="button small" href="https://01a14a53-a1a3-dfbd-4aed-d6da95a2a800.share.connect.posit.cloud/" target="_blank" rel="noopener">Open it in a new tab</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Kheirie El Hariri · <a href="mailto:kheirie.elhariri@gmail.com">kheirie.elhariri@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Pop-ups. Each opens from a button with the same data-open id, or from a link to #about, #experience, #education or #contact
+       (#data and #teaching open Experience on that tab). -->
+
+  <dialog id="about" aria-labelledby="about-title">
+    <div class="sheet">
+      <form method="dialog"><button class="close" aria-label="Close">✕</button></form>
+      <h2 id="about-title">About me</h2>
+      <p>
+        I'm a data scientist specializing in NLP and generative AI, with over three years of experience in NLP, time-series
+        analysis and applied machine learning. I have developed solutions across finance, pharmaceuticals and HR, including
+        document summarization, job matching, semantic search and macroeconomic analysis. I combine statistical modeling,
+        Transformer-based NLP, LLM-based systems (RAG and agents) and Python engineering to turn complex data into practical
+        insights, and I am rigorous about model evaluation and reproducibility.
+      </p>
+      <p>
+        I also have a research and teaching background. I currently work as a freelance AI curriculum developer with the
+        University of Akureyri, developing two master's-level courses, "AI for Social Innovation" and "Human Skills in the
+        Era of AI: Critical Thinking, Creativity, and Collaboration".
+      </p>
+      <p>
+        My interests sit at the crossroads of AI, human reasoning, education and social impact. I have lived and worked in
+        Lebanon, Iceland and France, and work in English, French and Arabic.
+      </p>
+    </div>
+  </dialog>
+
+  <dialog id="experience" aria-labelledby="experience-title">
+    <div class="sheet">
+      <form method="dialog"><button class="close" aria-label="Close">✕</button></form>
+      <h2 id="experience-title">Experience</h2>
+      <div class="tabs" role="tablist" aria-label="Kind of experience">
+        <button type="button" role="tab" id="tab-data" aria-controls="data" aria-selected="true" data-tab="data">Data &amp; AI</button>
+        <button type="button" role="tab" id="tab-teaching" aria-controls="teaching" aria-selected="false" data-tab="teaching">Teaching &amp; Education</button>
+      </div>
+
+      <div class="panel" id="data" role="tabpanel" aria-labelledby="tab-data">
+        <article class="role">
+          <header>
+            <div><h4>AI Curriculum Developer (Freelance)</h4><p class="org">University of Akureyri · Remote, France</p></div>
+            <p class="dates">July 2026 – Present</p>
+          </header>
+          <ul>
+            <li>Designing two master's-level courses, "AI for Social Innovation" and "Human Skills in the Era of AI: Critical Thinking, Creativity, and Collaboration" (in development).</li>
+            <li>Designed and delivered a guest lecture of about 100 minutes on using AI intelligently and critically in the Media History course.</li>
+          </ul>
+        </article>
+
+        <article class="role">
+          <header>
+            <div><h4>Junior Data Scientist</h4><p class="org">QuantCube Technology · Paris, France</p></div>
+            <p class="dates">Oct. 2023 – Oct. 2025</p>
+          </header>
+          <ul>
+            <li>Within the NLP team, built PMI nowcasting indicators for Egypt and Saudi Arabia from Arabic and English text (BERT-based sentiment analysis) combined with numerical data: 80% and 88% correlation with the official PMIs.</li>
+            <li>With the macro team, designed and evaluated statistical and machine learning models to estimate Saudi Arabia's Consumer Price Index: 98% correlation with the official benchmark.</li>
+            <li>Developed an internal agentic RAG research tool (LangChain, Ollama) that explains variations in economic indicators.</li>
+            <li>Built data collection and preprocessing pipelines (Selenium, BeautifulSoup) and evaluated models against official benchmarks (correlation, RMSE).</li>
+            <li>Tracked experiments and model versions with MLflow and Git, and took part in monitoring models in pre-production.</li>
+          </ul>
+        </article>
+        <article class="role">
+          <header>
+            <div><h4>NLP Data Scientist (interim)</h4><p class="org">Sanofi · Chilly-Mazarin, France</p></div>
+            <p class="dates">Nov. 2021 – Mar. 2022</p>
+          </header>
+          <ul>
+            <li>In the R&amp;D NLP team, part of a team that fine-tuned and evaluated BERT-based models for extractive summarization of medicine and drug documents (ROUGE-1 47%, ROUGE-2 25%); I worked on the Word documents.</li>
+            <li>Contributed to the team's preprocessing and post-processing pipelines (SpaCy, regex) producing JSON summaries and Word reports.</li>
+          </ul>
+        </article>
+        <article class="role">
+          <header>
+            <div><h4>Data Scientist</h4><p class="org">Braincities Lab · Paris, France</p></div>
+            <p class="dates">Aug. 2020 – Aug. 2021</p>
+          </header>
+          <ul>
+            <li>Contributed to HR proof-of-concept solutions, including a Workforce Mapping Solution for ENEL.</li>
+            <li>Responsible for its NLP-based job-matching component: web-scraped job descriptions (BeautifulSoup) and fine-tuned a Sentence-BERT model to match ENEL's jobs to O*NET and ESCO occupations, with 90% accuracy.</li>
+          </ul>
+        </article>
+
+        <h3>Skills</h3>
+        <dl class="skills">
+          <dt>Programming</dt><dd>Python (Pandas, NumPy), SQL, R, C/C++</dd>
+          <dt>Machine learning</dt><dd>Scikit-learn, PyTorch, statistical modeling, time series, nowcasting, model evaluation</dd>
+          <dt>NLP</dt><dd>Transformers (Hugging Face), BERT, Sentence-BERT, SpaCy, NLTK, semantic search, sentiment analysis</dd>
+          <dt>Generative AI</dt><dd>LLMs, RAG, agents (LangChain, LangGraph, LlamaIndex), Ollama, prompt engineering</dd>
+          <dt>MLOps &amp; cloud</dt><dd>MLflow, Git, GitHub (CI/CD), Docker, AWS (EC2, S3, Lambda)</dd>
+          <dt>Data</dt><dd>Web scraping (Selenium, BeautifulSoup), vector databases, Neo4j (certified), Plotly, Seaborn</dd>
+          <dt>Soft skills</dt><dd>Communication, analysis, autonomy, interpersonal skills, creativity, adaptability</dd>
+          <dt>Languages</dt><dd>English (near-native), French (intermediate-advanced), Arabic (native)</dd>
+        </dl>
+      </div>
+
+      <div class="panel" id="teaching" role="tabpanel" aria-labelledby="tab-teaching" hidden>
+        <article class="role">
+          <header>
+            <div><h4>AI Curriculum Developer (Freelance)</h4><p class="org">University of Akureyri · Remote, France</p></div>
+            <p class="dates">July 2026 – Present</p>
+          </header>
+          <ul>
+            <li>Designing two master's-level courses, "AI for Social Innovation" and "Human Skills in the Era of AI: Critical Thinking, Creativity, and Collaboration" (in development).</li>
+            <li>Designed and delivered a guest lecture of about 100 minutes on using AI intelligently and critically in the Media History course.</li>
+          </ul>
+        </article>
+        <article class="role">
+          <header>
+            <div><h4>English as a Foreign Language Teacher</h4><p class="org">SÍMEY Lifelong Learning Centre · Akureyri, Iceland</p></div>
+            <p class="dates">Sept. 2017 – Oct. 2017</p>
+          </header>
+          <ul>
+            <li>Designed the full English course and an "English for Beginners" booklet for 9 Syrian refugee learners aged 13 to 41.</li>
+          </ul>
+        </article>
+        <article class="role">
+          <header>
+            <div><h4>Temporary Educational Mentor</h4><p class="org">Teach For Lebanon · Beirut, Lebanon</p></div>
+            <p class="dates">Oct. 2016 – Dec. 2016</p>
+          </header>
+          <ul>
+            <li>Supervised and coached 13 teaching fellows, supporting their lesson planning and classroom practice.</li>
+            <li>Reviewed weekly lesson plans and wrote monthly observation reports with development feedback.</li>
+          </ul>
+        </article>
+        <article class="role">
+          <header>
+            <div><h4>Fellow</h4><p class="org">Teach For Lebanon · Saida, Lebanon</p></div>
+            <p class="dates">July 2014 – July 2016</p>
+          </header>
+          <ul>
+            <li>Taught mathematics and computer subjects to primary school students (Grades 1 to 6).</li>
+          </ul>
+        </article>
+
+        <h3>Skills</h3>
+        <dl class="skills">
+          <dt>Teaching &amp; learning</dt><dd>Coaching and feedback, lesson plan review, observation reports, course design, interviewing, Moodle</dd>
+        </dl>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="education" aria-labelledby="education-title">
+    <div class="sheet">
+      <form method="dialog"><button class="close" aria-label="Close">✕</button></form>
+      <h2 id="education-title">Education</h2>
+
+      <article class="role">
+        <header>
+          <div><h4>Applied MSc in Data Science &amp; Artificial Intelligence</h4><p class="org">Data ScienceTech Institute (DSTI) · Paris, France</p></div>
+          <p class="dates">Sept. 2023 – Dec. 2025</p>
+        </header>
+      </article>
+
+      <article class="role">
+        <header>
+          <div><h4>MA by Research, Department of Social Sciences</h4><p class="org">University of Akureyri · Akureyri, Iceland</p></div>
+          <p class="dates">Sept. 2017 – Feb. 2019</p>
+        </header>
+        <ul>
+          <li>Qualitative research on Syrian students in Icelandic schools, including conducting and analyzing interviews, funded by an Icelandic Regional Development Grant.</li>
+          <li>First author of the book chapter "Syrian students at the arctic circle in Iceland", in <em>Immigration in the Circumpolar North: Integration and Resilience</em> (Routledge, 2020). <a href="https://doi.org/10.4324/9780429344275" rel="noopener">DOI</a></li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <header>
+          <div><h4>MSc and BSc in Computer &amp; Communication Engineering</h4><p class="org">Rafic Hariri University · Mechref, Lebanon</p></div>
+          <p class="dates">Sept. 2008 – Dec. 2013</p>
+        </header>
+      </article>
+    </div>
+  </dialog>
+
+  <dialog id="contact" aria-labelledby="contact-title">
+    <div class="sheet">
+      <form method="dialog"><button class="close" aria-label="Close">✕</button></form>
+      <h2 id="contact-title">Contact</h2>
+      <ul class="contact">
+        <li><a href="mailto:kheirie.elhariri@gmail.com">kheirie.elhariri@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/kheirie-elhariri/" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/kheirie" rel="noopener">GitHub</a></li>
+        <li><a href="https://medium.com/@kheirie" rel="noopener">Medium</a></li>
+      </ul>
+    </div>
+  </dialog>
+
+  <script>
+    // Open a pop-up from its button, close it when the dimmed area outside it is clicked,
+    // and open it straight away when the address ends with its id (e.g. kheirie.github.io/#education).
+    document.querySelectorAll('[data-open]').forEach(function (button) {
+      button.addEventListener('click', function (event) {
+        event.preventDefault();
+        document.getElementById(button.dataset.open).showModal();
+      });
+    });
+    document.querySelectorAll('dialog').forEach(function (dialog) {
+      dialog.addEventListener('click', function (event) {
+        if (event.target === dialog) dialog.close();
+      });
+    });
+
+    // The Experience pop-up has two tabs: Data & AI, and Teaching & Education.
+    function showTab(id) {
+      document.querySelectorAll('[data-tab]').forEach(function (tab) {
+        tab.setAttribute('aria-selected', tab.dataset.tab === id);
+        document.getElementById(tab.dataset.tab).hidden = tab.dataset.tab !== id;
+      });
+    }
+    document.querySelectorAll('[data-tab]').forEach(function (tab) {
+      tab.addEventListener('click', function () { showTab(tab.dataset.tab); });
+    });
+
+    // #data and #teaching open the Experience pop-up on that tab.
+    var id = location.hash.slice(1);
+    if (id === 'data' || id === 'teaching') { showTab(id); id = 'experience'; }
+    var start = id && document.querySelector('dialog#' + CSS.escape(id));
+    if (start) start.showModal();
+  </script>
+</body>
+</html>
