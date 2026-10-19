@@ -63,13 +63,12 @@ h1 span { white-space: nowrap; }
 .photo { margin: 24px 0; width: 72px; height: 72px; object-fit: cover; border-radius: 50%; box-shadow: 0 0 0 4px var(--bg), 0 0 0 5px var(--border), var(--shadow); }
 
 .ask {
-  display: flex; align-items: center; justify-content: space-between; gap: 12px; width: min(560px, 100%);
-  padding: 8px 8px 8px 22px; margin-bottom: 14px; border: 1px solid var(--border); border-radius: 999px;
-  background: var(--bg); color: var(--muted); text-decoration: none; text-align: left; box-shadow: var(--shadow);
+  display: inline-flex; align-items: center; gap: 10px; margin-bottom: 18px; padding: 12px 22px;
+  border-radius: 999px; background: #3b82f6; color: #fff; font-weight: 600; text-decoration: none;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.35); transition: background-color 0.15s;
 }
-.ask:hover { border-color: var(--accent); }
-.go { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: #3b82f6; }
-.go svg { width: 20px; height: 20px; fill: none; stroke: #fff; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.ask:hover { background: #2563eb; }
+.ask svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
 .tiles { display: flex; flex-wrap: nowrap; justify-content: center; gap: 12px; width: 100%; }
 .tile {
